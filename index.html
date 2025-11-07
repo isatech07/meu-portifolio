@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jorge dos Santos Santana</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar">
+    <div class="container navbar-container">
+      <h1 class="logo">Jorge Santana</h1>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="#experiencia" class="nav-link">Experiência</a></li>
+        <li><a href="#educacao" class="nav-link">Educação</a></li>
+        <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+        <li><a href="#blog" class="nav-link">Blog</a></li>
+        <li><a href="#contato" class="nav-link">Contato</a></li>
+        <li>
+          <button id="theme-toggle" class="theme-btn">
+            <i class="fas fa-moon"></i>
+          </button>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div id="particles-js"></div>
+    <div class="container hero-content">
+      <h2 class="hero-title">
+        Bem-vindo ao Meu <br />
+        <span id="typed-text"></span>
+      </h2>
+      <p class="hero-subtitle">
+        Sou um profissional dedicado e apaixonado pela minha área, com anos de experiência em criar impactos positivos. Aqui você encontrará detalhes sobre minha jornada, conquistas e como posso contribuir para novos projetos e colaborações.
+      </p>
+      <div class="hero-buttons">
+        <a href="#portfolio" class="btn-primary">Ver Portfólio</a>
+        <a href="assets/cv.pdf" download class="btn-secondary">Baixar CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text" data-aos="fade-right">
+          <h2 class="section-title">Sobre Mim</h2>
+          <p class="about-paragraph">
+            Olá! Meu nome é Jorge. <br>Sou um profissional da área de segurança privada e me dedico com foco em proteger pessoas, patrimônios e ambientes. Tenho compromisso com a disciplina, atenção aos detalhes e respeito às normas, garantindo sempre a segurança e o bem-estar de todos ao meu redor. Busco constantemente aprimorar minhas habilidades e oferecer um serviço confiável e discreto.
+          </p>
+          <p class="about-paragraph">
+            Fora do trabalho, gosto de praticar atividades físicas e passar tempo com a família, o que me ajuda a manter o equilíbrio, a concentração e a disposição para exercer minha função com excelência.
+          </p>
+          <p class="about-paragraph">
+            Estou sempre aberto a novas oportunidades e colaborações. 
+          </p>
+        </div>
+        <div class="about-image" data-aos="fade-left">
+          <img src="img/jorge_sobre.jpg" alt="Sobre Mim" class="about-img" />
+          <div class="image-overlay"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experiência -->
+  <section id="experiencia" class="section bg-alt">
+    <div class="container">
+      <h2 class="section-title text-center" data-aos="fade-up">Minha Experiência Profissional</h2>
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="timeline-content">
+            <h3>Cargo Principal - Vigilante Inspetor</h3>
+            <span class="timeline-date">Dezembro 2012/2014 - Presente</span>
+              <p>Atuei na cobertura de postos, substituições durante férias e afastamentos, acompanhando reciclagens, elaborando relatórios e prestando atendimento ao cliente, sempre garantindo segurança e eficiência nas operações.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="timeline-content">
+            <h3>Cargo Anterior - Empresa Y</h3>
+            <span class="timeline-date">Março 2015 - Dezembro 2019</span>
+            <p>Responsável por estratégias que contribuíram para prêmios e reconhecimentos no setor.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+          <div class="timeline-content">
+            <h3>Início de Carreira - Empresa Z</h3>
+            <span class="timeline-date">Junho 2010 - Fevereiro 2015</span>
+            <p>Aquisição de habilidades fundamentais com foco em aprendizado contínuo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Educação -->
+  <section id="educacao" class="section">
+    <div class="container">
+      <h2 class="section-title text-center" data-aos="fade-up">Educação e Certificações</h2>
+      <div class="cards-grid">
+        <div class="card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+          <h3>Graduação em [Área]</h3>
+          <p class="card-subtitle">Universidade ABC - 2006-2010</p>
+          <p>Foco em pesquisa e aplicação prática.</p>
+        </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card-icon"><i class="fas fa-certificate"></i></div>
+          <h3>Pós-Graduação</h3>
+          <p class="card-subtitle">Instituição DEF - 2011-2013</p>
+          <p>Especialização com projetos internacionais.</p>
+        </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="card-icon"><i class="fas fa-award"></i></div>
+          <h3>Certificação Profissional</h3>
+          <p class="card-subtitle">Organização GHI - 2022</p>
+          <p>Expertise em ferramentas modernas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Habilidades -->
+  <section id="habilidades" class="section bg-alt">
+    <div class="container">
+      <h2 class="section-title text-center" data-aos="fade-up">Minhas Habilidades</h2>
+      <div class="skills-container">
+        <div class="skill-category">
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Liderança</span>
+              <span class="skill-percent">95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="95"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Comunicação</span>
+              <span class="skill-percent">90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="90"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Resolução de Problemas</span>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="85"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Trabalho em Equipe</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="80"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Adaptabilidade</span>
+              <span class="skill-percent">90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="90"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Criatividade</span>
+              <span class="skill-percent">75%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="75"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfólio -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <h2 class="section-title text-center" data-aos="fade-up">Meu Portfólio</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item" data-aos="flip-left" data-aos-delay="100" onclick="openModal('portfolio1')">
+          <img src="img/segurança1.jpg" alt="Projeto 1" />
+          <div class="portfolio-overlay">
+            <h3>Projeto Destacado 1</h3>
+            <p>Inovação e impacto no setor</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-aos="flip-left" data-aos-delay="200" onclick="openModal('portfolio2')">
+          <img src="img/item_seguranca1.jpg" alt="Projeto 2" />
+          <div class="portfolio-overlay">
+            <h3>Projeto Destacado 2</h3>
+            <p>Colaboração interdisciplinar</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-aos="flip-left" data-aos-delay="300" onclick="openModal('portfolio3')">
+          <img src="img/item_seguranca2.jpg" alt="Projeto 3" />
+          <div class="portfolio-overlay">
+            <h3>Projeto Destacado 3</h3>
+            <p>Expertise em tendências atuais</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog -->
+  <section id="blog" class="section bg-alt">
+    <div class="container">
+      <h2 class="section-title text-center" data-aos="fade-up">Meu Blog</h2>
+      <div class="blog-grid">
+        <article class="blog-card" data-aos="fade-up" data-aos-delay="100">
+          <img src="images/blog1.jpg" alt="Artigo 1" />
+          <div class="blog-content">
+            <h3>Título do Artigo 1</h3>
+            <p class="blog-date">15/10/2025</p>
+            <p>Tendências na área profissional com insights valiosos.</p>
+            <a href="#" class="read-more">Ler Mais</a>
+          </div>
+        </article>
+        <article class="blog-card" data-aos="fade-up" data-aos-delay="200">
+          <img src="images/blog2.jpg" alt="Artigo 2" />
+          <div class="blog-content">
+            <h3>Título do Artigo 2</h3>
+            <p class="blog-date">20/09/2025</p>
+            <p>Desafios e soluções inovadoras no dia a dia.</p>
+            <a href="#" class="read-more">Ler Mais</a>
+          </div>
+        </article>
+        <article class="blog-card" data-aos="fade-up" data-aos-delay="300">
+          <img src="images/blog3.jpg" alt="Artigo 3" />
+          <div class="blog-content">
+            <h3>Título do Artigo 3</h3>
+            <p class="blog-date">05/08/2025</p>
+            <p>Dicas práticas para profissionais em ascensão.</p>
+            <a href="#" class="read-more">Ler Mais</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="section">
+    <div class="container">
+      <h2 class="section-title text-center" data-aos="fade-up">Entre em Contato</h2>
+      <p class="contact-intro text-center">Estou ansioso para ouvir sobre suas ideias e oportunidades.</p>
+      <form id="contact-form" class="contact-form">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Seu Nome Completo" required />
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Seu Email" required />
+        </div>
+        <div class="form-group">
+          <input type="text" name="subject" placeholder="Assunto" required />
+        </div>
+        <div class="form-group">
+          <textarea name="message" rows="6" placeholder="Sua Mensagem" required></textarea>
+        </div>
+        <button type="submit" class="btn-submit">Enviar Mensagem</button>
+      </form>
+      <p id="form-status" class="form-status"></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Jorge Santana.<br>Todos os direitos reservados.</p>
+      <div class="social-links">
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
